@@ -1,19 +1,13 @@
 program hitung_lingkaran;
-
 uses crt;
-
 type
     warna=(merah,kuning,biru);
-
 const
      PI=3.14;
-
 var
-   jari2:integer=7;
-   warna_lingkaran:warna=merah;
-
+   jari2: integer=7;
+   warna_lingkaran: warna=merah;
 function luas_lingkaran:real;
-
 begin
      luas_lingkaran:PI*jari2*jari2;
 end;
