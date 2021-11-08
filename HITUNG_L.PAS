@@ -32,6 +32,7 @@ begin
      writeln('Warna Lingkaran = ',warna_lingkaran);
      writeLn('Luas Lingkaran= '.luas_lingkaran:4:2, ' cm');
      kel_lingkaran(jari2);
+     writeln('KELAAAAARRR');
      readln;
 end.
 
